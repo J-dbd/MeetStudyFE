@@ -1,10 +1,7 @@
 source 'https://rubygems.org'
 
-# # GitHub Pages에서 제공하는 Jekyll 및 관련 플러그인들을 관리하기 위한 gem
-# gem 'github-pages', group: :jekyll_plugins
-
-# Jekyll 및 관련 플러그인들을 관리하기 위한 gem
-gem 'jekyll', '~> 4.2' # 원하는 Jekyll 버전
+# GitHub Pages에서 제공하는 Jekyll 및 관련 플러그인들을 관리하기 위한 gem
+gem 'github-pages', group: :jekyll_plugins
 
 
 # Performance-booster for watching directories on Windows
