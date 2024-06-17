@@ -17,10 +17,11 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.0"
+          ruby-version: "3.3.3"
 
       - name: Install dependencies
         run: |
+          gem install bundler
           bundle install
 
       - name: Build site
